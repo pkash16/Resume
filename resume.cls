@@ -269,7 +269,7 @@
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Use this to set the sectionwidth.
+% Use this to set the width.
 % It adjust the width of the text as well as the hoffset
 % You probably shouldn't touch any of the size paramaters
 % unless you really understand all of this but it is not
@@ -442,7 +442,7 @@
 \let\@@section\relax
 \def\ds@overlapped{\ifx\@@section\relax\newsectionwidth{0.5in}\let\@@section\unboxed@sectiontitle\fi}
 %\def\ds@margin{\ifx\@@section\relax\newsectionwidth{1.3in}\let\@@section\boxed@sectiontitle\fi}
-\def\ds@margin{\ifx\@@section\relax\newsectionwidth{1.1in}\let\@@section\boxed@sectiontitle\fi}
+\def\ds@margin{\ifx\@@section\relax\newsectionwidth{1in}\let\@@section\boxed@sectiontitle\fi}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % DEFAULTS: (some of them)
@@ -814,12 +814,12 @@
 \oddsidemargin -11mm
 \evensidemargin -11mm
 %\textwidth=150mm
-\textwidth=154mm
+\textwidth=160mm
 \itemsep=0cm
 \parsep=0cm
 \topmargin -20mm
 %\textheight 265mm
-\textheight 275mm
+\textheight 270mm
 
 \newenvironment{list1}{
   \begin{list}{\ding{113}}{%
